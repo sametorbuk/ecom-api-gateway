@@ -1,0 +1,9 @@
+
+
+services:
+  config-server:
+    container_name: api-gateway-container
+    image: my-microservice-app
+    build: .
+    ports:
+      - "8080:8080"
